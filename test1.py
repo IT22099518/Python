@@ -1,5 +1,6 @@
 # variables
 # Integer
+import math
 from builtins import print
 
 x = 2
@@ -81,3 +82,37 @@ a5 = 3 + 4
 a6 = 3 - 4
 
 print(4 ** 5 - (5 ** 5 + 7) / 6)
+
+# ------------------------------------------------------
+
+# Variables 2
+colors = ["red", "yellow", "blue"]
+b1, b2, b3 = colors
+print(b1)
+print(b2)
+print(b3)
+
+# -------------------------------------------------------
+
+c1 = 1.7
+print(round(c1))
+
+# --------------------------------------------------------
+
+# if/else
+raining = True
+
+if raining:
+    print("Take an umbrella with you")
+else:
+    print("Take a cap with you")
+
+# --------------------------------------------------------
+
+# math
+t1 = 1296.99
+print(math.floor(t1))
+print(math.ceil(t1))
+print(math.fabs(t1)) # for (-)
+
+print(math.sqrt(500))
